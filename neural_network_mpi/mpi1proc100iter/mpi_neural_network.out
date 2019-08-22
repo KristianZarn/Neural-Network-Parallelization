@@ -1,0 +1,35 @@
+Archive:  arhiv.zip
+  inflating: benchmarks.c            
+  inflating: helpers.c               
+  inflating: helpers.h               
+  inflating: neuralnetwork.c         
+  inflating: neuralnetwork.h         
+  inflating: readwrite.c             
+  inflating: readwrite.h             
+  inflating: train-images-10k.dat    
+  inflating: train-images-15k.dat    
+  inflating: train-images-20k.dat    
+  inflating: train-images-25k.dat    
+  inflating: train-images-30k.dat    
+  inflating: train-images-35k.dat    
+  inflating: train-images-40k.dat    
+  inflating: train-images-45k.dat    
+  inflating: train-images-50k.dat    
+  inflating: train-images-55k.dat    
+  inflating: train-images-5k.dat     
+  inflating: train-images-60k.dat    
+  inflating: train-labels-10k.dat    
+  inflating: train-labels-15k.dat    
+  inflating: train-labels-20k.dat    
+  inflating: train-labels-25k.dat    
+  inflating: train-labels-30k.dat    
+  inflating: train-labels-35k.dat    
+  inflating: train-labels-40k.dat    
+  inflating: train-labels-45k.dat    
+  inflating: train-labels-50k.dat    
+  inflating: train-labels-55k.dat    
+  inflating: train-labels-5k.dat     
+  inflating: train-labels-60k.dat    
+MPIRUN:/grid/arc/sw/openmpi/openmpi-1.8.8/build/bin/mpirun
+MPIARGS:-np 
+Program je koncal s kodo 213.

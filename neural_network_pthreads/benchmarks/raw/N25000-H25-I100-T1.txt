@@ -1,0 +1,12 @@
+Dataset size= 25000
+Hidden layer size = 25
+Iterations = 100
+Threads = 1
+
+Run:	   1	Duration:	112.669803
+Run:	   2	Duration:	110.962961
+Run:	   3	Duration:	112.114553
+Run:	   4	Duration:	109.756134
+
+Povprecje:
+111.376 +- 0.560

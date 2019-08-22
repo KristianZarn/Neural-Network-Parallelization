@@ -1,0 +1,21 @@
+mkdir .arc
+cd .arc
+openssl pkcs12 -in signet.p12 -clcerts -nokeys -out usercert.pem
+openssl pkcs12 -in signet.p12 -nocerts -nodes -out userkey.pem
+chmod 400 userkey.pem
+chmod 644 usercert.pem
+
+DOSTOP DO VOMS STREZNIKA
+mkdir vomsdir
+echo -e "/C=SI/O=SiGNET/O=SLING/CN=voms.sling.si\n/C=SI/O=SiGNET/CN=SiGNET CA" > ~/.arc/vomsdir/voms.sling.si.lsc
+echo -e '"fri.vo.sling.si" "voms.sling.si" "15003" "/C=SI/O=SiGNET/O=SLING/CN=voms.sling.si" "fri.vo.sling.si"' > ~/.arc/vomses
+arcproxy -S fri.vo.sling.si
+
+ZAGON NA GRIDU
+arcproxy --voms=fri.vo.sling.si:/fri.vo.sling.si
+arcsub -c jost.arnes.si -o ids mpi_test.xrsl
+arcstat id_posla
+
+ODSTRANI ^M
+vim -b file : tk vidis ce ma carriage return na koncu
+sed -i -e 's/\r$//' mpi_test.sh

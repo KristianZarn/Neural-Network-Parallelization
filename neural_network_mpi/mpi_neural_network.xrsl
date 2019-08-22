@@ -1,0 +1,40 @@
+&
+(* Dolocimo zagonsko skripto, ki se bo zagnala prva *)
+(executable = "mpi_neural_network.sh")
+
+(* Dolocimo datoteke, ki se naj kopirajo na grid,
+poti so relativne glede na to, kje zazenemo ukaz
+za posiljanje posla arcsub *)
+(inputfiles =
+  ("mpi_neural_network.sh" "")
+  ("arhiv.zip"  "")
+)
+
+(* Ime programa; uporabno, ko zaganjamo vec poslov
+za lazjo orientacijo, izpise se pri klicu arcstat *)
+(jobname=mpi_neural_network_2procs_100iter)
+
+(* Datoteki za standardni izhod in standardni izhod za
+napake *)
+(stdout=mpi_neural_network.out)
+(stderr=mpi_neural_network.err)
+
+(* Argumenti, ki jih podamo programu (ki jih dobimo
+preko argv tabele v C-ju *)
+(arguments= "")
+
+(* Stevilo zahtevanih procesorjev. Privzeto 64. *)
+(count=2)
+
+(* Okolje v katerem se program izvaja:
+APPS/ARNES/MPI-1.7 uporablja MPI 1.7.3
+APPS/ARNES/MPI-1.6 uporablja MPI 1.6.4 *)
+(runTimeEnvironment = "APPS/FRI/MPI-1.8")
+
+(* Ime direktorija, kamor se shranijo grid log datoteke.
+Prenesejo se ob klicu ukaza arcget. Uporabno, kadar se kaj
+zalomi pri sprejemanju posla. *)
+(gmlog=gridlog)
+
+(* nastavim max cas na 100 minut *)
+(wallTime="100")

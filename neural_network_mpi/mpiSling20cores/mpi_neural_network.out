@@ -1,0 +1,103 @@
+Archive:  arhiv.zip
+  inflating: benchmarks.c            
+  inflating: helpers.c               
+  inflating: helpers.h               
+  inflating: neuralnetwork.c         
+  inflating: neuralnetwork.h         
+  inflating: readwrite.c             
+  inflating: readwrite.h             
+  inflating: train-images-10k.dat    
+  inflating: train-images-15k.dat    
+  inflating: train-images-20k.dat    
+  inflating: train-images-25k.dat    
+  inflating: train-images-30k.dat    
+  inflating: train-images-35k.dat    
+  inflating: train-images-40k.dat    
+  inflating: train-images-45k.dat    
+  inflating: train-images-50k.dat    
+  inflating: train-images-55k.dat    
+  inflating: train-images-5k.dat     
+  inflating: train-images-60k.dat    
+  inflating: train-labels-10k.dat    
+  inflating: train-labels-15k.dat    
+  inflating: train-labels-20k.dat    
+  inflating: train-labels-25k.dat    
+  inflating: train-labels-30k.dat    
+  inflating: train-labels-35k.dat    
+  inflating: train-labels-40k.dat    
+  inflating: train-labels-45k.dat    
+  inflating: train-labels-50k.dat    
+  inflating: train-labels-55k.dat    
+  inflating: train-labels-5k.dat     
+  inflating: train-labels-60k.dat    
+MPIRUN:/grid/arc/sw/openmpi/openmpi-1.8.8/build/bin/mpirun
+MPIARGS:-np 20
+Ucna mnozica: 10000
+
+Reading input data... 
+DONE
+Dataset size= 10000
+Hidden layer size = 25
+Iterations = 100
+
+Training Neural Network... 
+
+Povprecje:
+39.325 +- 0.900
+DONE
+
+
+Ucna mnozica: 20000
+
+Reading input data... 
+DONE
+Dataset size= 20000
+Hidden layer size = 25
+Iterations = 100
+
+Training Neural Network... 
+
+Povprecje:
+40.996 +- 0.009
+DONE
+
+
+Ucna mnozica: 30000
+
+Reading input data... 
+DONE
+Dataset size= 30000
+Hidden layer size = 25
+Iterations = 100
+
+Training Neural Network... 
+
+Povprecje:
+61.291 +- 0.110
+DONE
+
+
+Ucna mnozica: 40000
+
+Reading input data... 
+DONE
+Dataset size= 40000
+Hidden layer size = 25
+Iterations = 100
+
+Training Neural Network... 
+
+Povprecje:
+89.381 +- 5.362
+DONE
+
+
+Ucna mnozica: 50000
+
+Reading input data... 
+DONE
+Dataset size= 50000
+Hidden layer size = 25
+Iterations = 100
+
+Training Neural Network... 

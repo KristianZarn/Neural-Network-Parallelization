@@ -1,0 +1,37 @@
+<ComputingActivity xmlns="http://schemas.ogf.org/glue/2009/03/spec_2.0_r1" BaseType="Activity" CreationTime="2017-01-24T16:49:34Z" Validity="1200">
+  <ID>urn:caid:jost.arnes.si:org.nordugrid.gridftpjob:woZNDm1AJqpnmmR0Xox1SiGmABFKDmABFKDmIMGKDmABFKDmtNBLtm</ID>
+  <Name>mpi_neural_network_50procs_100iter</Name>
+  <OtherInfo>SubmittedVia=org.nordugrid.gridftpjob</OtherInfo>
+  <Type>single</Type>
+  <IDFromEndpoint>urn:idfe:woZNDm1AJqpnmmR0Xox1SiGmABFKDmABFKDmIMGKDmABFKDmtNBLtm</IDFromEndpoint>
+  <JobDescription>nordugrid:xrsl</JobDescription>
+  <State>nordugrid:FAILED::INLRMS</State>
+  <State>bes:Failed</State>
+  <State>emies:terminal</State>
+  <State>emiesattr:processing-cancel</State>
+  <State>emiesattr:processing-failure</State>
+  <RestartState>nordugrid:INLRMS</RestartState>
+  <RestartState>bes:Running</RestartState>
+  <RestartState>emies:processing-running</RestartState>
+  <RestartState>emiesattr:app-running</RestartState>
+  <Error>LRMS error: (271) Job was cancelled</Error>
+  <Owner>/C=SI/O=SiGNET/O=FRI Uni-Lj/OU=Student/CN=Kristian Zarn</Owner>
+  <LocalOwner>fri118</LocalOwner>
+  <RequestedTotalWallTime>6000</RequestedTotalWallTime>
+  <RequestedSlots>50</RequestedSlots>
+  <RequestedApplicationEnvironment>APPS/FRI/MPI-1.8</RequestedApplicationEnvironment>
+  <StdIn>/dev/null</StdIn>
+  <StdOut>mpi_neural_network.out</StdOut>
+  <StdErr>mpi_neural_network.err</StdErr>
+  <LogDir>gridlog</LogDir>
+  <ExecutionNode>wn120.arnes.si</ExecutionNode>
+  <Queue>all</Queue>
+  <UsedTotalWallTime>15200</UsedTotalWallTime>
+  <SubmissionTime>2017-01-24T16:31:03Z</SubmissionTime>
+  <EndTime>2017-01-24T16:46:39Z</EndTime>
+  <WorkingAreaEraseTime>2017-01-27T16:38:13Z</WorkingAreaEraseTime>
+  <SubmissionHost>212.235.189.201</SubmissionHost>
+  <Associations>
+    <ComputingShareID>urn:ogf:ComputingShare:jost.arnes.si:all</ComputingShareID>
+  </Associations>
+</ComputingActivity>

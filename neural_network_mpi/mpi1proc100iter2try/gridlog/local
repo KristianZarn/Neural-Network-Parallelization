@@ -1,0 +1,25 @@
+globalid=MKjNDmkriqpnmmR0Xox1SiGmABFKDmABFKDmSMHKDmLBFKDmvCMHKo
+headnode=https://jost.arnes.si:443/arex
+interface=org.ogf.glue.emies.activitycreation
+lrms=SLURM
+queue=all
+localid=11455729
+args=mpi_neural_network.sh  
+argscode=0
+subject=/C=SI/O=SiGNET/O=FRI Uni-Lj/OU=Student/CN=Kristian Zarn
+starttime=20170125195652Z
+lifetime=259200
+rerun=0
+downloads=0
+uploads=0
+jobname=mpi_neural_network_1procs_100iter
+gmlog=gridlog
+cleanuptime=20170128195825Z
+clientname=212.235.189.201:59369
+sessiondir=/d10/session/MKjNDmkriqpnmmR0Xox1SiGmABFKDmABFKDmSMHKDmLBFKDmvCMHKo
+diskspace=0
+failedstate=INLRMS
+failedcause=internal
+freestagein=yes
+transfershare=_default
+priority=50

@@ -1,0 +1,148 @@
+Dataset size= 10000
+Hidden layer size = 25
+Iterations = 100
+Threads = 1
+
+Run:	   1	Duration:	151.761159
+Run:	   2	Duration:	156.614473
+Run:	   3	Duration:	161.087868
+Run:	   4	Duration:	158.207105
+Run:	   5	Duration:	157.207887
+Run:	   6	Duration:	152.228624
+Run:	   7	Duration:	153.348097
+Run:	   8	Duration:	151.555463
+Run:	   9	Duration:	152.645039
+Run:	  10	Duration:	153.409602
+
+Povprecje:
+154.807 +- 0.976
+
+#####################################
+
+Dataset size= 10000
+Hidden layer size = 25
+Iterations = 100
+Threads = 20
+
+Run:	   1	Duration:	10.305226
+Run:	   2	Duration:	9.604034
+Run:	   3	Duration:	9.641246
+Run:	   4	Duration:	10.388421
+Run:	   5	Duration:	10.421633
+Run:	   6	Duration:	10.471549
+Run:	   7	Duration:	10.420801
+Run:	   8	Duration:	10.484711
+Run:	   9	Duration:	10.472499
+Run:	  10	Duration:	10.426327
+
+Povprecje:
+10.264 +- 0.103
+
+#####################################
+
+
+Dataset size= 10000
+Hidden layer size = 25
+Iterations = 100
+Threads = 40
+
+Run:	   1	Duration:	6.453553
+Run:	   2	Duration:	6.645423
+Run:	   3	Duration:	6.476445
+Run:	   4	Duration:	6.597653
+Run:	   5	Duration:	6.774573
+Run:	   6	Duration:	6.837753
+Run:	   7	Duration:	6.755369
+Run:	   8	Duration:	6.727771
+Run:	   9	Duration:	6.752988
+Run:	  10	Duration:	6.633524
+
+Povprecje:
+6.666 +- 0.038
+
+#######################################
+
+Dataset size= 10000
+Hidden layer size = 25
+Iterations = 100
+Threads = 60
+
+Run:	   1	Duration:	6.107462
+Run:	   2	Duration:	6.422105
+Run:	   3	Duration:	6.321116
+Run:	   4	Duration:	6.182776
+Run:	   5	Duration:	6.161321
+Run:	   6	Duration:	6.329793
+Run:	   7	Duration:	6.147480
+Run:	   8	Duration:	6.326899
+Run:	   9	Duration:	6.171746
+Run:	  10	Duration:	6.173768
+
+Povprecje:
+6.234 +- 0.032
+
+##########################################
+
+
+Dataset size= 10000
+Hidden layer size = 25
+Iterations = 100
+Threads = 80
+
+Run:	   1	Duration:	8.078285
+Run:	   2	Duration:	7.639612
+Run:	   3	Duration:	7.357065
+Run:	   4	Duration:	7.094834
+Run:	   5	Duration:	7.134566
+Run:	   6	Duration:	7.406556
+Run:	   7	Duration:	7.156991
+Run:	   8	Duration:	7.135010
+Run:	   9	Duration:	7.151262
+Run:	  10	Duration:	7.092382
+
+Povprecje:
+7.325 +- 0.095
+
+######################################
+
+Dataset size= 10000
+Hidden layer size = 25
+Iterations = 100
+Threads = 120
+
+Run:	   1	Duration:	13.562841
+Run:	   2	Duration:	12.129037
+Run:	   3	Duration:	8.859130
+Run:	   4	Duration:	8.981547
+Run:	   5	Duration:	8.716428
+Run:	   6	Duration:	8.861369
+Run:	   7	Duration:	8.765466
+Run:	   8	Duration:	8.242383
+Run:	   9	Duration:	8.599975
+Run:	  10	Duration:	8.927125
+
+Povprecje:
+9.565 +- 0.532
+
+########################################
+
+Dataset size= 10000
+Hidden layer size = 25
+Iterations = 100
+Threads = 236
+
+Run:	   1	Duration:	18.449267
+Run:	   2	Duration:	17.178578
+Run:	   3	Duration:	16.951029
+Run:	   4	Duration:	16.680795
+Run:	   5	Duration:	16.646078
+Run:	   6	Duration:	16.947713
+Run:	   7	Duration:	16.879900
+Run:	   8	Duration:	16.655995
+Run:	   9	Duration:	16.957865
+Run:	  10	Duration:	16.677082
+
+Povprecje:
+17.002 +- 0.161
+
+

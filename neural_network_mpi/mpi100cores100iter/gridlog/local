@@ -1,0 +1,26 @@
+globalid=gsiftp://jost.arnes.si:2811/jobs/H1lMDmpVKqpnmmR0Xox1SiGmABFKDmABFKDmokGKDmABFKDmhBm68m
+headnode=gsiftp://jost.arnes.si:2811/jobs
+interface=org.nordugrid.gridftpjob
+lrms=SLURM
+queue=all
+localid=11449759
+args=mpi_neural_network.sh  
+argscode=0
+subject=/C=SI/O=SiGNET/O=FRI Uni-Lj/OU=Student/CN=Kristian Zarn
+starttime=20170124175637Z
+lifetime=259200
+rerun=0
+downloads=0
+uploads=0
+jobname=mpi_neural_network_100procs_100iter
+gmlog=gridlog
+cleanuptime=20170127180345Z
+clientname=212.235.189.201:36678
+delegationid=955588232bd8
+sessiondir=/d02/session/H1lMDmpVKqpnmmR0Xox1SiGmABFKDmABFKDmokGKDmABFKDmhBm68m
+diskspace=0
+failedstate=INLRMS
+failedcause=internal
+freestagein=no
+transfershare=_default
+priority=50

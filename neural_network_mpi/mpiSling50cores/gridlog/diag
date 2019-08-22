@@ -1,0 +1,7 @@
+runtimeenvironments=APPS/FRI/MPI-1.8;
+
+nodename=wn120.arnes.si
+WallTime=304s
+Processors=50
+LRMSStartTime=20170124163156Z
+LRMSEndTime=20170124163700Z
