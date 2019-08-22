@@ -4,7 +4,7 @@ Classical artificial neural network implementation in C programming language and
 
 Report and evaluation (Slovene language): https://www.overleaf.com/read/rvvppgwbbmvh
 
-# The project is divided in the following folders
+## The project is divided in the following folders
 
 - matlab_code: reference implementation in MATLAB
 
@@ -19,3 +19,7 @@ Report and evaluation (Slovene language): https://www.overleaf.com/read/rvvppgwb
 - neural_network_mpi: parallel implementation using MPI
 
 - MNIST: evaluation data
+
+## Authors
+
+Kristian Žarn and Maks Vrščaj
